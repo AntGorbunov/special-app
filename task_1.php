@@ -19,7 +19,6 @@ while ($i < strlen($shifr)) {
     $i++;
 }
 
-echo "Расшифрованное слово - $rasshifr";
 
 
 

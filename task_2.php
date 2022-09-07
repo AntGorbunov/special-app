@@ -30,5 +30,3 @@ foreach ($massiv_2 as $key => $b) {
        $massiv_3[] = array_slice($massiv_2, $key, 1);
     }
 }
-
-var_dump($massiv_3);

@@ -1,6 +1,6 @@
 <?php
 
-$slovo = 'satrat';
+$slovo = 'batman';
 $sdvig = 3;
 $shifr = '';
 

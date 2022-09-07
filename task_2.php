@@ -19,14 +19,3 @@ foreach ($massiv_1 as $key => $a) {
 }
 
 echo implode("\n", $massiv_2);
-
-
-$massiv_3 = [];
-foreach ($massiv_2 as $key => $b) {
-    if (
-        $b[1] === $b[2]
-        && $b[2] === $b[3]
-    ) {
-       $massiv_3[] = array_slice($massiv_2, $key, 1);
-    }
-}
